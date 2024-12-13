@@ -4,45 +4,236 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>DAClimaTECH</title>
-        <link rel="stylesheet" href="./style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"/>
+
+        <link rel="stylesheet" href="https://icons8.com/icon/pwIDwJpH6BTA/close"></a><a target="_blank" href="https://icons8.com"></a>
+
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/services.css">
+        <link rel="stylesheet" href="css/news.css">
+        <link rel="stylesheet" href="css/we.css">
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="css/bottomfooter.css">
+
         <script defer src="./code.js"></script>
     </head>
+
     <body>
         <header class="topheader">
             <nav class="topnav">
-                <a href="#" class="logo">
-                    <img 
-                        height="50"
-                        width="50"
-                        src="img/DAClima Logo .png"
-                        alt="logoempresa"
-                    /> 
-                    <div>
-                        Sistemas de Climatización | Electricidad | Maquinaria de Hostelería | Frío Industrial
-                    </div>
-                </a>
+                <div class="logo">
+                    DAClimaTECH
+                </div>
                 <button class="open-menu" aria-label="Abrir menú">
-                    <img src="img/icons8-menú.svg" alt="abrir menú"/>
+                    <img class="open-menu-img"
+                        width="35"
+                        height="35" 
+                        src="img/icons8-menú.svg" alt="abrir menú"/>
                 </button>
-                <ul>
+                <ul class="menu">
                     <button class="close-menu" aria-label="Cerrar menú">
-                        <img src="img/icons8-eliminar.svg" alt="cerrar menú"/>
+                        <img class="close-menu-img"
+                            width="35"
+                            height="35"
+                            src="img/icons8-eliminarAzul.svg" alt="cerrar menú"/>
                     </button>
-                    <li>
-                        <a href="#home" class="selected">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="#services">Servicios</a>
-                    </li>
-                    <li>
-                        <a href="#blog">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#concat">Contacto</a>
-                    </li>
+                    <li><a href="#home" class="selected">Inicio</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#news">Blog</a></li>
+                    <li><a href="#we">Nosotros</a></li>
+                    <li><a href="#contact">Contacto</a></li>
                 </ul>
             </nav>
         </header>
-
+        <div class="horizontal-padding vertical-padding">
+            <section class="home" id="home">
+                <div class="home-img-section">
+                    <img class="home-img" src="img/DAClimaTECH WEB.png" alt="imagen logo empresa">
+                </div>
+                <div class="home-info">
+                    <h1 class="home-title">Sistemas de Climatización | Electricidad | Maquinaria de Hostelería | Frío Industrial</h1>
+                    <button class="contacto-btn">
+                        ¿Hablamos?
+                    </button>
+                </div>
+            </section>
+        </div>
+        <div class="services-body-color">
+            <div class="horizontal-padding vertical-padding">
+                <section class="services" id="services">
+                    <div class="services-body">
+                        <div class="services-grid">
+                            <div class="service">
+                                <div class="service-title">ASESORÍA Y VENTA</div>
+                                <div class="service-description">Te ayudamos a encontrar la solución en climatización que mejor se adapte a tus necesidades.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services-grid">
+                            <div class="service">
+                                <div class="service-title">AEROTERMIA</div>
+                                <div class="service-description">La aerotermia es una solución sostenible y eficiente para climatizar tu hogar y producir agua caliente sanitaria, aprovechando la energía del aire de una manera inteligente.
+                                </div>
+                            </div>
+                        <div class="services-grid">
+                            <div class="service">
+                                <div class="service-title">AIRE ACONDICIONADO</div>
+                                <div class="service-description">
+                                    El Aire Acondicionado es tu mejor aliado para climatizar ambientes cerrados.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services-grid">
+                            <div class="service">
+                                <div class="service-title">CALEFACCIÓN</div>
+                                <div class="service-description"> 
+                                    Descubra las soluciones en calefacción que tenemos para ofrecerle.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services-grid">
+                            <div class="service">
+                                <div class="service-title">ELECTRICIDAD</div>
+                                <div class="service-description">
+                                    Instalación, mantenimiento o reparación de sistemas eléctricos.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services-grid">
+                            <div class="service">
+                                <div class="service-title">FRÍO INDUSTRIAL</div>
+                                <div class="service-description">
+                                    Las cámaras frigoríficas son instalaciones de refrigeración. Su tamaño puede ser pequeño, mediano o grande dependiendo de las necesidades a cubrir. Estos equipos tienen como fin, el de reducir o mantener a un nivel muy bajo de temperatura el producto que en ella se encuentre.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services-grid">
+                            <div class="service">
+                                <div class="service-title">MAQUINARIA DE HOSTELERÍA</div>
+                                <div class="service-description">
+                                    Disponer de una buena maquinaría de hostelería en tu negocio, es sinónimo de eficiencia, productividad y éxito.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services-grid">
+                            <div class="service">
+                                <div class="service-title">VENTILACIÓN - EXTRACCIÓN</div>
+                                <div class="service-description">
+                                    Estos sistemas son fundamentales para garantizar una buena calidad del aire en cualquier espacio, ya sea un hogar, una oficina o un edificio industrial.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services-grid">
+                            <div class="service">
+                                <div class="service-title">SOPORTE TÉCNICO</div>
+                                <div class="service-description">
+                                    Ponte en contacto con nosotros. Brindamos asistencia remota o asesoría para resolver diversos problemas.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="news-body-color">
+            <div class="horizontal-padding vertical-padding">
+                <section class="news" id="news">
+                    <div class="news-body">
+                        <div class="news-body-title">Enterate de todas las novedades en nuestro Blog</div>
+                        <div class="news-grid">
+                            <div class="blog">
+                                <div class="blog-title">Consejos útiles para elegir el mejor aire acondicionado según tus necesidades.</div>
+                                <div class="blog-description">Cuando se trata de elegir el aire acondicionado adecuado, la clave está en considerar tus necesidades específicas para crear un ambiente agradable, saludable y eficiente.
+                                </div>
+                                <button class="lmas-btn">
+                                    Leer más
+                                </button>
+                            </div>
+                        </div>
+                        <div class="news-grid">
+                            <div class="blog">
+                                <div class="blog-title">Consejos para ahorrar energía este verano con el aire acondicionado.</div>
+                                <div class="blog-description">En DAClimaTECH sabemos lo importante que es ahorrar energía. Por ello, queremos darte ciertas pautas para que puedas conseguir este objetivo al enchufar tu aire acondicionado.
+                                </div>
+                                <button class="lmas-btn">
+                                    Leer más
+                                </button>
+                            </div>
+                        </div>
+                        <div class="news-grid">
+                            <div class="blog">
+                                <div class="blog-title">Título del Blog Nº3.</div>
+                                <div class="blog-description">(Ejemplo)
+                                </div>
+                                <button class="lmas-btn">
+                                    Leer más
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="we-body-color">
+            <div class="horizontal-padding vertical-padding">
+                <section class="we" id="we">
+                    <div class="we-body">
+                        <div class="we-title">
+                            <h2>
+                                ¡Bienvenidos a DAClimaTECH!
+                            </h2>
+                        </div>
+                        <div class="we-description">
+                            <p class="we-description">
+                                Somos una empresa joven con un compromiso sólido: ofrecer calidad, rapidez y respeto al medio ambiente en cada proyecto que emprendemos.<br />
+                                Con una trayectoria respaldada por experiencia, nos especializamos en soluciones técnicas para hogares, oficinas y locales comerciales en toda la isla.<br /> 
+                                Nos dedicamos a la instalación, mantenimiento y reparación de sistemas de climatización, calefacción, electricidad, equipos de hostelería y frío industrial.<br /> 
+                                Nuestro enfoque se centra en crear un ambiente agradable para nuestros clientes, garantizando soluciones eficientes, sostenibles y que permitan ahorro de energía.<br /> 
+                                Nos enorgullece contar con técnicos cualificados, especializados y autorizados por el Ministerio de Industria, comprometidos con ofrecer un servicio de alta calidad y satisfacción del cliente.<br />  
+                                Valoramos la eficiencia, la excelencia en el servicio y la responsabilidad ambiental como pilares fundamentales de nuestro trabajo.<br /> 
+                            </p>
+                            <div class="we-description-footer">¡Estamos para brindarte las soluciones que mejor se adapten a tus necesidades, mejoren tu calidad de vida y cuiden de nuestro planeta!</div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="horizontal-padding vertical-padding">
+                <section class="contact" id="contact">
+                    <div class="contact-body">
+                        <div class="contact-title">¿Hablamos?</div>
+                        <div class="contact-question">¿Tienes preguntas?</div> 
+                        <div class="contact-description">Puedes llamarnos a nuestro teléfono y WhatsApp 600 039 668</div>
+                        <div class="contact-description-mail">o también puedes enviarnos tu consulta a 
+                        info@daclimatech.com</div>     
+                        <div class="contact-time">Lunes a Viernes de 8:00 a 20:00 hs.</div>
+                        <div class="contact-map">Estamos en Mallorca y nos desplazamos a toda la isla.</div>        
+                    </div>
+                </section>
+            </div>
+        </div>
+        <footer class="bottomfooter">
+            <div class="horizontal-padding vertical-padding">
+                <section class="bottomnav">
+                    <div class="globalfooter">Copyright <img class="copyimg" 
+                        width="48" height="48" src="https://img.icons8.com/fluency-systems-regular/48/FFFFFF/copyright.png" alt="copyright"/> 2024 DAClimaTECH. Reservados todos los derechos.
+                    </div>
+                    <ul class="bottommenu">
+                        <li class="bottommenu-li"><a href="#legal">AVISO LEGAL</a></li>
+                        <li class="bottommenu-li"><a href="#privacyp">POLÍTICA DE PRIVACIDAD</a></li>
+                        <li class="bottommenu-li"><a href="#cookisp">POLÍTICA DE COOKIS</a></li>
+                        <li class="bottommenu-li"><a href="#contact">CONTACTO</a></li>
+                    </ul> 
+                </section>
+            </div>
+        </footer>
     </body>
 </html>

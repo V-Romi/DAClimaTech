@@ -1,0 +1,54 @@
+:root {
+    --theme-color: #fcfeff;
+    --primary-color: rgb(12, 19, 195);
+    --secundary-color: #F7C331;
+    --text-color-inverse: white;
+    --text-color: #05316d; 
+    --navbar-shallow-color: #e5e5e5;
+    --menu-mobile-background-color: #3A4460;
+    --section-body-backgroud-color: rgb(246, 247, 248)
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
+.section[id] {
+    scroll-margin-top: 70px;
+}
+
+body {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 290;
+    font-style: normal;
+
+    background-color: var(--theme-color);
+    color: var(--text-color);
+    padding-top: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+.horizontal-padding {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.vertical-padding {
+    padding-top: 18px;
+    padding-bottom: 25px;
+}
+
+
+@media (min-width: 950px) {
+    .horizontal-padding {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .vertical-padding {
+        padding-top: 58px;
+        padding-bottom: 70px;
+    }
+}

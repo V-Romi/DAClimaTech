@@ -1,0 +1,16 @@
+.we-body-color {
+    background-color: var(--section-body-backgroud-color);
+    width: 100%;
+}
+.we-title {
+    font-size: 15px;
+    text-align: center;
+
+}
+.we-description {
+    line-height: 1.6;
+    text-align: center;
+}
+.we-description-footer {
+    font-weight: 500;
+}
