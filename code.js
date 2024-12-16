@@ -7,8 +7,8 @@ function toggleMenu() {
     menu.classList.toggle("menu_opened");
 }
 
-openMenuBtn.addEventListener("click", toggleMenu)
-closeMenuBtn.addEventListener("click", toggleMenu)
+openMenuBtn.addEventListener("click", toggleMenu);
+closeMenuBtn.addEventListener("click", toggleMenu);
 
 const menuLinks = document.querySelectorAll(".menu a[href^='#']");
 
@@ -19,13 +19,13 @@ const observer = new IntersectionObserver ((entries) => {
 
         if (entry.isIntersecting) {
             document.querySelector(".menu a.selected").classList.remove("selected")
-            menuLink.classList.add("selected")
+            menuLink.classList.add("selected");
         }
     })
-}, {rootMargin: "-30% 0px -70% 0px"})
+}, {rootMargin: "-30% 0px -70% 0px"});
 
 menuLinks.forEach(menuLink => {
-    menuLinks.addEventListener("click", function() {
+    menuLink.addEventListener("click", function() {
         menu.classList.remove("menu_opened");
     })
 
