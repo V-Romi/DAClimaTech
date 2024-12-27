@@ -18,6 +18,7 @@
     flex-direction: column;
     max-width: 600px;
     margin: 0 auto;
+
 }
 @media (min-width: 950px) {
     .service-title {
@@ -30,10 +31,13 @@
     .services {
         padding: 0;
         max-width: 900px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     .services-grid {
         display: grid;
-        grid-template-columns: 200px 200px 200px;
+        grid: "title desciption";
+        
         padding: 70px;
         gap: 20px 70px; 
         justify-content: center;
